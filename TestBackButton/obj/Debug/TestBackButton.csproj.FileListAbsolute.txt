@@ -52,8 +52,8 @@ C:\Users\AndrewBG\source\repos\TestBackButton\TestBackButton\bin\roslyn\VBCSComp
 C:\Users\AndrewBG\source\repos\TestBackButton\TestBackButton\bin\roslyn\VBCSCompiler.exe.config
 C:\Users\AndrewBG\source\repos\TestBackButton\TestBackButton\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\Users\AndrewBG\source\repos\TestBackButton\TestBackButton\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\AndrewBG\source\repos\TestBackButton\TestBackButton\obj\Debug\TestBackButton.csprojAssemblyReference.cache
 C:\Users\AndrewBG\source\repos\TestBackButton\TestBackButton\obj\Debug\TestBackButton.csproj.CoreCompileInputs.cache
 C:\Users\AndrewBG\source\repos\TestBackButton\TestBackButton\obj\Debug\TestBackButton.csproj.CopyComplete
 C:\Users\AndrewBG\source\repos\TestBackButton\TestBackButton\obj\Debug\TestBackButton.dll
 C:\Users\AndrewBG\source\repos\TestBackButton\TestBackButton\obj\Debug\TestBackButton.pdb
+C:\Users\AndrewBG\source\repos\TestBackButton\TestBackButton\obj\Debug\TestBackButton.csprojAssemblyReference.cache
