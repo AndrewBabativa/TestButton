@@ -4,7 +4,7 @@ history.back();
 history.go(1); 
 
 var initial = false;
-location.hash = "";
+var flag_back = false;
 
 $(document).ready(function () {
    
@@ -13,26 +13,26 @@ $(document).ready(function () {
 });
 
 window.onpopstate = function (event) {
-    if (location.hash == "#1" && initial == false) {
+    if (location.hash == "#1" && flag_back == false) {
         initial = true;
-        var hash_current = parseInt(location.hash.substr(1, 1)) + 1;
-        window.location.hash = hash_current;
-
+        window.location.hash = "2";
     }
-    else if (initial == false) {
+    else if (initial == false && location.hash == "") {
+        initial == true
         window.location.hash = "1";
     }
-    else
+    if (location.hash == "#1" && initial == true && flag_back == true)
     {
-        window.location.hash = "3";
+        alert('atras');
+        $(".popup-panel").hide();
+        flag_back == false;
     }
 };
 
 
-$(window).bind('hashchange', function () {
-
-    if (location.hash == "#3") {
-        //cookie donde registra que se cerró el pop up por parte del usuario.
-        $(".popup-panel").hide();
+window.onhashchange = function () {
+    if (location.hash == "#2") {
+        flag_back = true;
     }
-});
+}
+
