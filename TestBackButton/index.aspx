@@ -21,8 +21,6 @@
 </head>
 <body>
 
-  <a>Popup</a>
-
-   <div class="popup-panel" id="panel"></div>
+   <div class="popup-panel" id="modalLead"></div>
 </body>
 </html>
